@@ -27,10 +27,10 @@ import vulkan_hpp;
 #include <glm/gtx/hash.hpp>
 
 #define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
+#include "../vulkan-tutorial/original-version/Rendering/libraries/stb/stb_image.h"
 
 #define TINYOBJLOADER_IMPLEMENTATION
-#include <tiny_obj_loader.h>
+#include "../vulkan-tutorial/original-version/Rendering/libraries/tinyobjloader/tiny_obj_loader.h"
 
 #ifndef LAB_TASK_LEVEL
 #	define LAB_TASK_LEVEL 1
