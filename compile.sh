@@ -1,0 +1,1 @@
+g++ -std=c++23 -O3 38_ray_tracing.cpp -lglfw -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi -o main
